@@ -1,0 +1,44 @@
+@font-face{
+  font-family: 'Kanit';
+  font-weight: 900;
+  font-style: black;
+  src:  url('../fonts/kanit/Kanit-Black.woff2') format('woff2'),
+        url('../fonts/kanit/Kanit-Black.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'Kanit';
+  font-weight: 700;
+  font-style: bold;
+  src:  url('../fonts/kanit/Kanit-Bold.woff2') format('woff2'),
+        url('../fonts/kanit/Kanit-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'PlusJakartaSans';
+  font-weight: 300;
+  font-style: light;
+  src:  url('../fonts/plusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+        url('../fonts/plusJakartaSans/PlusJakartaSans-Light.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'PlusJakartaSans';
+  font-weight: 500;
+  font-style: medium;
+  src:  url('../fonts/plusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+        url('../fonts/plusJakartaSans/PlusJakartaSans-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face{
+  font-family: 'PlusJakartaSans';
+  font-weight: 400;
+  font-style: regular;
+  src:  url('../fonts/plusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+        url('../fonts/plusJakartaSans/PlusJakartaSans-Regular.woff') format('woff');
+  font-display: swap;
+}
