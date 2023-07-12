@@ -1,0 +1,39 @@
+body {
+  @extend %plus-400;
+  font-size: 20px;
+  color: $text;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  max-width: 1636px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.global-button {
+  @extend %kanit-700;
+  font-size: 18px;
+  background: linear-gradient(98.73deg, #7A42F4 0%, #4642F4 100%), #FFFFFF;;
+  border-radius: 6px;
+  line-height: 1.45;
+  letter-spacing: 0.08em;
+}
+
+.title {
+  @extend %kanit-700;
+  font-size: 45px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
