@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
 ul[class],
 ol[class] {
   padding: 0;
