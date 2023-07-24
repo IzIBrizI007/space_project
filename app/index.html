@@ -1,16 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.min.css" />
 </head>
+
 <body>
-  <h1>
-    Поменял цвет чтобы ты лучше видел
-  </h1>
+  <div class="header">
+    <div class="container">
+      <nav class="nav">
+        <a class="logo" href="#">
+          <img src="images/logo/logo.svg" alt="logo" />
+        </a>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link nav__link--active" href="#">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">About Us</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">White paper</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Tokenomics</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Road Map</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">How to buy</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Buy</a>
+          </li>
+        </ul>
+        <div class="nav__burger burger">
+          <span class="burger__lines"></span>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <h1 class="hero__title">Crafty Metaverse</h1>
+            <p class="hero__text">
+              A SHARED, IMMERSIVE <br />MULTI-BLOCKCHAIN<br />
+              BASED <span class="hero__text-decor"></span> METAVERSE ECOSYSTEM
+            </p>
+            <a class="hero__link global-button" href="#">Invest Now</a>
+            <div class="hero__line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="about">
+      <div class="container">
+        <div class="about__wrapper">
+          <div class="about__content">
+            <h2 class="about__subtitle subtitle">Profile</h2>
+            <h3 class="about__title title">About Us</h3>
+            <div class="about__text">
+              <p>
+                CYou are using the old write up. We are using this now. Crafty
+                Metaverse is a multi-blockchain based virtual reality
+                metaverse platform to develop the most immersive, imaginative,
+                and addictive gaming experiences. We are providing our gaming
+                community with the near-real-world experience while using
+                their digital avatars. Our ecosystem will be a futuristic,
+                decentralized, and persistent 3D virtual metaverse gaming
+                platform especially for crypto enthusiasts, gamers, artists,
+                and metaverse fans...
+              </p>
+            </div>
+            <div class="about__chapter">
+              <div class="about__line">
+                <div class="about__up-line" style="width: 20%"></div>
+              </div>
+              <div class="about__number">
+                <span class="about__chapter-first">1 &nbsp; Chapter</span>
+                <span class="about__chapter-next">2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="instruction">
+      <div class="container">
+        <div class="instruction__wrapper">
+          <h2 class="instruction__subtitle subtitle">Our Way</h2>
+          <h3 class="instruction__title title">Roadmap</h3>
+          <ul class="instruction__list">
+            <li class="instruction__item steps">
+              <h5 class="steps__title">
+                Q1<br />Governance Token<br />
+                Launch on BSC ($CMETA)
+              </h5>
+              <ul class="steps__list">
+                <li class="steps__item">
+                  Launch Date: Jan 8th, 2022 Contract Audit
+                </li>
+                <li class="steps__item">
+                  TechAudit Completed on Jan 21st, 2022 5k Telegram members
+                </li>
+                <li class="steps__item">
+                  32k Telegram Members. CG and CMC listings
+                </li>
+                <li class="steps__item">Application Sent CEX Listings</li>
+                <li class="steps__item">
+                  CoinsBit Listing – Feb 8th . Website Revamp
+                </li>
+                <li class="steps__item">Contracted UI/UX Developers</li>
+              </ul>
+              <a class="steps__link" href="#">More</a>
+            </li>
+            <li class="instruction__item steps">
+              <h5 class="steps__title">
+                Q2<br />Governance Token<br />
+                Launch on BSC ($CMETA)
+              </h5>
+              <ul class="steps__list">
+                <li class="steps__item">
+                  Launch Date: Jan 8th, 2022 Contract Audit
+                </li>
+                <li class="steps__item">
+                  TechAudit Completed on Jan 21st, 2022 5k Telegram members
+                </li>
+                <li class="steps__item">
+                  32k Telegram Members. CG and CMC listings
+                </li>
+                <li class="steps__item">Application Sent CEX Listings</li>
+                <li class="steps__item">
+                  CoinsBit Listing – Feb 8th . Website Revamp
+                </li>
+                <li class="steps__item">Contracted UI/UX Developers</li>
+              </ul>
+              <a class="steps__link" href="#">More</a>
+            </li>
+            <li class="instruction__item steps">
+              <h5 class="steps__title">
+                Q3<br />Governance Token<br />
+                Launch on BSC ($CMETA)
+              </h5>
+              <ul class="steps__list">
+                <li class="steps__item">
+                  Launch Date: Jan 8th, 2022 Contract Audit
+                </li>
+                <li class="steps__item">
+                  TechAudit Completed on Jan 21st, 2022 5k Telegram members
+                </li>
+                <li class="steps__item">
+                  32k Telegram Members. CG and CMC listings
+                </li>
+                <li class="steps__item">Application Sent CEX Listings</li>
+                <li class="steps__item">
+                  CoinsBit Listing – Feb 8th . Website Revamp
+                </li>
+                <li class="steps__item">Contracted UI/UX Developers</li>
+              </ul>
+            </li>
+            <li class="instruction__item steps">
+              <h5 class="steps__title">
+                Q4<br />Governance Token<br />
+                Launch on BSC ($CMETA)
+              </h5>
+              <ul class="steps__list">
+                <li class="steps__item">
+                  Launch Date: Jan 8th, 2022 Contract Audit
+                </li>
+                <li class="steps__item">
+                  TechAudit Completed on Jan 21st, 2022 5k Telegram members
+                </li>
+                <li class="steps__item">
+                  32k Telegram Members. CG and CMC listings
+                </li>
+                <li class="steps__item">Application Sent CEX Listings</li>
+                <li class="steps__item">
+                  CoinsBit Listing – Feb 8th . Website Revamp
+                </li>
+                <li class="steps__item">Contracted UI/UX Developers</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="brands">
+      <div class="container">
+        <h2 class="brands__subtitle subtitle">No problem</h2>
+        <h3 class="brands__title title">Our brands</h3>
+        <ul class="brands__list">
+          <li class="brands__item brands__item--frame1">
+            <span class="brands__border brands__border--green"></span>
+            <h4 class="brands__name">Guardians of Lost Worlds (P2E Game)</h4>
+            <div class="brands__text">
+              <p>
+                Crafty Metaverse will soon launch Guardians of Lost Worlds,
+                the first cross-chain P2E gaming experience. Our game will be
+                available on multiple blockchains and then eventually on our
+                side chain (SANKOFA). This will give users a seamless gameplay
+                experience with little to no gas fees that allow users to
+                focus on the game rather than worrying about losing their
+                returns.
+              </p>
+            </div>
+          </li>
+          <li class="brands__item brands__item--frame2">
+            <span class="brands__border brands__border--violet"></span>
+            <h4 class="brands__name">Crafty Metaverse Ecosystem</h4>
+            <div class="brands__text">
+              <p>
+                Crafty Metaverse presents a Virtual Arts Studio where you can
+                enhance your creativity by creating digital arts inspired by
+                your game. A virtual marketplace to allow the users to trade
+                and stake our $CMETA token and their NFTs. Negotiate with the
+                digital avatars of other users to sell your NFTs at the best
+                prices and generate passive income while playing
+              </p>
+            </div>
+          </li>
+          <li class="brands__item brands__item--frame3">
+            <span class="brands__border brands__border--pink"></span>
+            <h4 class="brands__name">SANKOFA</h4>
+            <div class="brands__text">
+              <p>
+                SANKOFA($KOFA) is an Ethereum sidechain that will be created
+                with Guardians of Lost Worlds community in mind. LYQUID, the
+                team behind Guardians of Lost Worlds, will build a reliable,
+                fast and cheap network that could cater to the demands of the
+                game.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="ressources">
+      <div class="container">
+        <h2 class="ressources__subtitle subtitle">What we do</h2>
+        <h3 class="ressources__title title">Our resources</h3>
+        <div class="ressources__content">
+          <div class="ressources__left">
+            <img class="ressources__img-logo" src="images/decor/logo.png" alt="#" />
+            <h4 class="ressources__paragraph">About toKen $Cmeta</h4>
+            <div class="ressources__text">
+              <p>
+                CMETA, a BSC-based cryptocurrency token will be the sole
+                governance token on the platform. This means that every single
+                transaction in the Crafty Metaverse space will be conducted
+                with the $CMETA token
+              </p>
+            </div>
+            <a class="ressources__link" href="#">Play (Coming Soon)</a>
+          </div>
+          <div class="ressources__right">
+            <div class="ressources__box">
+              <span class="ressources__point ressources__point--violet">Circulating Supply:<br />
+                1,000,000,000</span>
+              <span class="ressources__dot ressources__dot--violet"></span>
+              <span class="ressources__point ressources__point--pink">Maximum supply:<br />
+                1,000,000,000</span>
+              <span class="ressources__dot ressources__dot--pink"></span>
+              <span class="ressources__point ressources__point--green">Token symbol:<br />
+                $CMETA</span>
+              <span class="ressources__dot ressources__dot--green"></span>
+              <span class="ressources__point ressources__point--red">Tax: 10% <br />Marketing : 5%<br />
+                Development : 5%</span>
+              <span class="ressources__dot ressources__dot--red"></span>
+            </div>
+          </div>
+        </div>
+        <span class="ressources__game-decor">VR GAME MARKETPLACE</span>
+      </div>
+      <div class="ressources__block game">
+        <div class="container">
+          <div class="game__box">
+            <ul class="game__metaverse-list">
+              <li class="game__metaverse-item">CRAFTY METAVERSE</li>
+              <li class="game__metaverse-item">CRAFTY METAVERSE</li>
+              <li class="game__metaverse-item">CRAFTY METAVERSE</li>
+            </ul>
+            <div class="game__content">
+              <span class="game__border"></span>
+              <h3 class="game__subtitle">Game</h3>
+              <div class="game__text">
+                <p>
+                  The space will also offer avid gamers to be a part of an
+                  amazing 3D gaming experience (details to be published
+                  soon).<br /><br />
+                  Crafty Metaverse space will continuously evolve its 3D
+                  gaming space to include technologies such as VR headsets,
+                  augmented reality glasses, and game consoles.
+                </p>
+              </div>
+              <a class="game__button" href="#">Invest Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="explication">
+      <div class="container">
+        <div class="explication__top">
+          <span class="explication__border"></span>
+          <span class="explication__decor"></span>
+          <div class="explication__explore">
+            <h2 class="explication__title title">Explore Now</h2>
+            <div class="explication__explore-text">
+              <p>
+                Each human will control his/her own digital identity in the
+                Crafty Metaverse space.
+              </p>
+            </div>
+            <a class="explication__button" href="#">Invest Now</a>
+          </div>
+          <div class="explication__right-text">
+            <p>
+              A virtual marketplace to allow the users to trade and stake our
+              $CMETA token and their NFTs. Negotiate with the digital avatars
+              of other users to sell your NFTs at the best prices and generate
+              passive income while playing.
+            </p>
+          </div>
+          <div class="explication__bg" style="background-image: url(images/decor/explication-top.png);"></div>
+        </div>
+      </div>
+      <div class="explication__bottom">
+        <div class="explication__bg-bottom" style="background-image: url(images/decor/explication-bottom.png);"></div>
+        <div class="container">
+          <div class="explication__box">
+            <div class="explication__studio">
+              <h2 class="explication__title title">Virtual Arts Studio</h2>
+              <a class="explication__link" href="#">Create</a>
+            </div>
+            <div class="explication__studio-text">
+              <p>
+                A virtual marketplace to allow the users to trade and stake our
+                $CMETA token and their NFTs. Negotiate with the digital avatars
+                of other users to sell your NFTs at the best prices and generate
+                passive income while playing.
+              </p>
+            </div>
+            <span class="explication__border-bottom"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team">
+      <span class="team__grid"></span>
+      <div class="container">
+        <h2 class="team__subtitle subtitle">Who we are</h2>
+        <h3 class="team__title title">Our Team</h3>
+        <ul class="team__list">
+          <li class="team__card team__card--active">
+            <div class="team__img-box team__img-box--decor">
+              <img class="team__img" src="images/decor/card-first.png" alt="worker Stan" />
+            </div>
+            <div class="team__info">
+              <span class="team__position">CTO/Creative Director</span>
+              <span class="team__name team__name--turquoise">Stan</span>
+            </div>
+            <ul class="team__social team__social--revers">
+              <li class="team__item">
+                <a class="team__link team__link--facebook" href="#"></a>
+              </li>
+              <li class="team__item">
+                <a class="team__link team__link--twitter" href="#"></a>
+              </li>
+              <li class="team__item ">
+                <a class="team__link team__link--instagram" href="#"></a>
+              </li>
+              <li class="team__item">
+                <a class="team__link team__link--linkedin" href="#"></a>
+              </li>
+            </ul>
+          </li>
+          <li class="team__card ">
+            <ul class="team__social">
+              <li class="team__item">
+                <a class="team__link team__link--facebook" href="#"></a>
+              </li>
+              <li class="team__item">
+                <a class="team__link team__link--twitter" href="#"></a>
+              </li>
+              <li class="team__item ">
+                <a class="team__link team__link--instagram" href="#"></a>
+              </li>
+              <li class="team__item">
+                <a class="team__link team__link--linkedin" href="#"></a>
+              </li>
+            </ul>
+            <div class="team__info">
+              <span class="team__position">Chief Financial Officer</span>
+              <span class="team__name team__name--blue">Kwasi</span>
+            </div>
+            <div class="team__img-box">
+              <img class="team__img" src="images/decor/card-second.png" alt="worker Stan" />
+            </div>
+          </li>
+          <li class="team__card">
+            <div class="team__img-box">
+              <img class="team__img" src="images/decor/card-third.png" alt="worker Stan" />
+            </div>
+            <div class="team__info">
+              <span class="team__position">COO/Marketing Director</span>
+              <span class="team__name team__name--purple">Kwame</span>
+            </div>
+            <ul class="team__social team__social--revers">
+              <li class="team__item">
+                <a class="team__link team__link--facebook" href="#"></a>
+              </li>
+              <li class="team__item">
+                <a class="team__link team__link--twitter" href="#"></a>
+              </li>
+              <li class="team__item ">
+                <a class="team__link team__link--instagram" href="#"></a>
+              </li>
+              <li class="team__item">
+                <a class="team__link team__link--linkedin" href="#"></a>
+              </li>
+            </ul>
+          </li>
+          <li class="team__card">
+            <ul class="team__social">
+              <li class="team__item">
+                <a class="team__link team__link--facebook" href="#"></a>
+              </li>
+              <li class="team__item">
+                <a class="team__link team__link--twitter" href="#"></a>
+              </li>
+              <li class="team__item ">
+                <a class="team__link team__link--instagram" href="#"></a>
+              </li>
+              <li class="team__item">
+                <a class="team__link team__link--linkedin" href="#"></a>
+              </li>
+            </ul>
+            <div class="team__info">
+              <span class="team__position">CEO/Developer</span>
+              <span class="team__name team__name--ping">Kojo</span>
+            </div>
+            <div class="team__img-box team__img-box--decor2">
+              <img class="team__img" src="images/decor/card-fourth.png" alt="worker Stan" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="questions">
+      <div class="container">
+        <div class="questions__inner">
+          <span class="questions__decor"></span>
+          <div class="questions__title-box">
+            <h2 class="questions__subtitle subtitle">Questions</h2>
+            <h3 class="questions__title title">faq</h3>
+          </div>
+          <ul class="questions__list">
+            <li class="questions__item questions__item--active">
+              <div class="questions__wrapper">
+                <div class="questions__box">
+                  <span class="questions__question">1. What is CMETA and which tokens we use?</span>
+                  <span class="questions__plus"></span>
+                </div>
+                <div class="questions__answer">
+                  <p>Crafty Metaverse is a blockchain-based virtual reality metaverse platform focused on building a
+                    decentralized, persistent online 3D/VR environment that will allow interactions among humans in the
+                    form of Avatars. </p>
+                </div>
+              </div>
+            </li>
+            <li class="questions__item">
+              <div class="questions__wrapper">
+                <div class="questions__box">
+                  <span class="questions__question">2. What is CMETA and which tokens we use?</span>
+                  <span class="questions__plus"></span>
+                </div>
+                <div class="questions__answer">
+                  <p>Crafty Metaverse is a blockchain-based virtual reality metaverse platform focused on building a
+                    decentralized, persistent online 3D/VR environment that will allow interactions among humans in the
+                    form of Avatars. </p>
+                </div>
+              </div>
+            </li>
+            <li class="questions__item">
+              <div class="questions__wrapper">
+                <div class="questions__box">
+                  <span class="questions__question">3. What is CMETA and which tokens we use?</span>
+                  <span class="questions__plus"></span>
+                </div>
+                <div class="questions__answer">
+                  <p>Crafty Metaverse is a blockchain-based virtual reality metaverse platform focused on building a
+                    decentralized, persistent online 3D/VR environment that will allow interactions among humans in the
+                    form of Avatars. </p>
+                </div>
+              </div>
+            </li>
+            <li class="questions__item">
+              <div class="questions__wrapper">
+                <div class="questions__box">
+                  <span class="questions__question">4. What is CMETA and which tokens we use?</span>
+                  <span class="questions__plus"></span>
+                </div>
+                <div class="questions__answer">
+                  <p>Crafty Metaverse is a blockchain-based virtual reality metaverse platform focused on building a
+                    decentralized, persistent online 3D/VR environment that will allow interactions among humans in the
+                    form of Avatars. </p>
+                </div>
+              </div>
+            </li>
+            <li class="questions__item">
+              <div class="questions__wrapper">
+                <div class="questions__box">
+                  <span class="questions__question">5. What is CMETA and which tokens we use?</span>
+                  <span class="questions__plus"></span>
+                </div>
+                <div class="questions__answer">
+                  <p>Crafty Metaverse is a blockchain-based virtual reality metaverse platform focused on building a
+                    decentralized, persistent online 3D/VR environment that will allow interactions among humans in the
+                    form of Avatars. </p>
+                </div>
+              </div>
+            </li>
+            <li class="questions__item">
+              <div class="questions__wrapper">
+                <div class="questions__box">
+                  <span class="questions__question">6. What is CMETA and which tokens we use?</span>
+                  <span class="questions__plus"></span>
+                </div>
+                <div class="questions__answer">
+                  <p>Crafty Metaverse is a blockchain-based virtual reality metaverse platform focused on building a
+                    decentralized, persistent online 3D/VR environment that will allow interactions among humans in the
+                    form of Avatars. </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="social">
+      <div class="container">
+        <h2 class="social__subtitle subtitle">Questions</h2>
+        <h3 class="social__title title">Social media</h3>
+        <ul class="social__list">
+          <li class="social__item social__item--twitter">
+            <a class="social__link social__link--twitter" href="#">
+              <span class="social__logo social__logo--twitter"></span>
+              <span class="social__name social__name--twitter">Twitter</span>
+            </a>
+          </li>
+          <li class="social__item social__item--telegram">
+            <a class="social__link social__link--telegram" href="#">
+              <span class="social__logo social__logo--telegram"></span>
+              <span class="social__name social__name--telegram">Telegram</span>
+            </a>
+          </li>
+          <li class="social__item social__item--youtube">
+            <a class="social__link social__link--youtube" href="#">
+              <span class="social__logo social__logo--youtube"></span>
+              <span class="social__name social__name--youtube">YouTube</span>
+            </a>
+          </li>
+          <li class="social__item social__item--discord">
+            <a class="social__link social__link--discord" href="#">
+              <span class="social__logo social__logo--discord"></span>
+              <span class="social__name social__name--discord">Discord</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  <!----> </main> 
+  <!-- <footer class="footer">
+    <div class="footer__corporation">
+      <div class="footer__logo"></div>
+      <div class="footer__name">Based in US Active worldwide</div>
+    </div>
+    <div class="footer__contact-box">
+      <div class="footer__contact"><a class="footer__link" href="#">contact</a></div>
+      <div class="footer__contact"><a class="footer__link" href="#">contact</a></div>
+    </div>
+    <a class="footer__addr-link" href="mailto:info@craftymetaverse.com">info@craftymetaverse.com
+    </a>
+  </footer> -->
+
+  
+
+  <!-- <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script> -->
   <script src="js/main.min.js"></script>
 </body>
+
 </html>
