@@ -14,6 +14,7 @@ const browserSync  = require('browser-sync').create();
 // import {imagemin} from 'gulp-imagemin';
 // import {browserSync} from 'browser-sync';
 // import {deleteAsync} from 'del';
+//
 
 function browsersync() {
   browserSync.init({
