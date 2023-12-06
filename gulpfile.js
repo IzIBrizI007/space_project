@@ -38,8 +38,8 @@ function styles() {
 
 function scripts() {
   return src([
-    // 'node_modules/node_modules/jquery.marquee/jquery.marquee.min.js',
     'node_modules/jquery/dist/jquery.js', 
+    'node_modules/jquery.marquee/jquery.marquee.min.js',
     'app/js/main.js'
   ])
   .pipe(concat('main.min.js'))
